@@ -9,7 +9,12 @@ body {
     font-size: 100%;
 	width: 600px;
 	margin: 0 auto;
-	border: #931420 solid 3px;
+	border: 3px solid #931420;
+	background-color: #fffded;
+}
+body header{
+	border-bottom: 3px solid #931420;
+
 }
 a:focus, a:hover {
 	font-style: italic;
@@ -38,6 +43,8 @@ main {
 main h1 {
 	font-size: 150%;
 	padding: .3em 0;
+	border-top: 3px solid #931420;
+	border-bottom: 3px solid #931420;
 }
 main h2 {
 	color: var(--global-color-1);
@@ -69,4 +76,6 @@ main li {
 footer p {
 	text-align: center;
 	padding: 1em 0;
+	background-color: #931420;
+	color: white;
 }
